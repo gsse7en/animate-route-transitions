@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+
+  <head>
+    <script data-require="jquery@3.1.1" data-semver="3.1.1" src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+    <script src="https://google.github.io/traceur-compiler/bin/traceur.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/systemjs/0.19.31/system.js"></script>
+  </head>
+
+  <body>
+    <div id="wrapper">
+      <div id="nav">
+        nav menu:
+          <a class="ajax-transition" href="./index.html">first</a> |
+          <a class="ajax-transition" href="./second.html">second</a>  | 
+          <a class="ajax-transition" href="./third.html">third</a>
+      </div>
+      <div id="content">
+        <hr />
+        <div id="ajax-container">
+          Second page content
+        </div>
+        <hr />
+        some outer content
+      </div>
+    </div>
+    <script>
+      System.import('scripts/script.js');
+    </script>
+  </body>
+
+</html>
