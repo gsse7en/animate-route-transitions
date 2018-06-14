@@ -1,5 +1,6 @@
 # Summary
 This plugin allows you to move through your SPA adding intro and outro animations between page transitions, with the support of 'back' and 'forward' history buttons.
+[Example](https://gsse7en.github.io/animate-route-transitions/example)
 # Pre-conditions
 First of all you should import RouteAnimation class to your application. To do that you have to be able to import ES6 modules. The easiest way to do so is by importing traceur with system.js to pages where you want to use the plugin like so:
 ```
