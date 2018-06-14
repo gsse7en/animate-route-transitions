@@ -51,3 +51,5 @@ Finally, create instance of RouteAnimation on page load, supplying it with optio
 ```
 new RouteAnimation(options);
 ```
+# License
+MIT
